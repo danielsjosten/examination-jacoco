@@ -1,7 +1,6 @@
 package se.nackademin.examination.examination_jacoco;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Game {
 
