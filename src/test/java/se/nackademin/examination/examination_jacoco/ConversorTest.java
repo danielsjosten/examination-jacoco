@@ -13,18 +13,15 @@ public class ConversorTest {
 		Conversor conversor = new Conversor();
 		conversor.setNameConverterArrayValues();
 		assertEquals(conversor.getNameConverterArray().get(0), "Your first name is smaller than your last name");
+	
+		conversor.setAgeConverterArrayValues();
+		assertEquals(conversor.getAgeConverterArray().get(0), "You are young and talented! Things will come your way soon enough! ");
+	
+		conversor.setGenderConverterArrayValues();
+		assertEquals(conversor.getGenderConverterArray().get(0), "man!");
+		
+		conversor.setCityConverterArrayValues();
+		assertEquals(conversor.getCityConverterArray().get(0), " A, ");
 	}
 	
-	@Test
-	public void testSetGenderConverterArrayValues() {
-		
-		Conversor conversor = new Conversor();
-		conversor.setGenderConverterArrayValues();
-		
-		
-		assertEquals(conversor.getGenderConverterArray().get(0), "man!");
-
-		
-	}
-
 }
