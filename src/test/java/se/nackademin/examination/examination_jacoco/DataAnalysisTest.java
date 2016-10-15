@@ -10,7 +10,7 @@ import org.junit.Test;
 public class DataAnalysisTest {
 
 	@Test
-	public void testGetResulStringHomecityAndAge() {
+	public void testuildFinalString() {
 		DataAnalysis dataAnalysis = new DataAnalysis();
 		ArrayList<String> values = new ArrayList<String>();
 		values.addAll(Arrays.asList("Game", "Rafael", "Silva", "M", "30", "Fortaleza"));
@@ -46,4 +46,57 @@ public class DataAnalysisTest {
 				result2.contains("No analysis was performed"));
 	}
 
+	@Test
+	public void testGetResulStringHomecityAndAge(){
+		
+		DataAnalysis dataAnalysis = new DataAnalysis();
+		ArrayList<String> values = new ArrayList<String>();
+		ArrayList<String> values1 = new ArrayList<String>();
+		ArrayList<String> values2 = new ArrayList<String>();
+		ArrayList<String> values3 = new ArrayList<String>();
+		
+		//Testing first if-statement
+		values.addAll(Arrays.asList("Gamename", "Kalle", "Bergström", "M", "30", "Fort"));
+		String result = dataAnalysis.buildFinalString(values);
+		assertTrue(dataAnalysis.getResulStringHomecityAndAge(values), 
+				result.contains("The name of the homecity is small and the participant is 30 or older"));
+		
+		values1.addAll(Arrays.asList("Gamename", "Kalle", "Bergström", "M", "29", "Fort"));
+		String result1 = dataAnalysis.buildFinalString(values1);
+		assertTrue(dataAnalysis.getResulStringHomecityAndAge(values1), 
+				result1.contains("The name of the homecity is small and the participant is younger than 30"));
+		
+		values2.addAll(Arrays.asList("Gamename", "Kalle", "Bergström", "M", "30", "Stockholm"));
+		String result2 = dataAnalysis.buildFinalString(values2);
+		assertTrue(dataAnalysis.getResulStringHomecityAndAge(values2), 
+				result2.contains("The name of the homecity is big and the participant is 30 or older"));
+		
+		values3.addAll(Arrays.asList("Gamename", "Kalle", "Bergström", "M", "29", "Stockholm"));
+		String result3 = dataAnalysis.buildFinalString(values3);
+		assertTrue(dataAnalysis.getResulStringHomecityAndAge(values3), 
+				result3.contains("The name of the homecity is big and the participant is younger than 30"));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+	
 }
