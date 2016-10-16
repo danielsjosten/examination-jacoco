@@ -12,12 +12,15 @@ public class GameTest {
 	@Test
 	public void testRun(){
 		Game game = new Game();
-//		DataAnalysis dataAnalysis = new DataAnalysis();
+		DataAnalysis dataAnalysis = new DataAnalysis();
 		ArrayList<String> values = new ArrayList<String>();
 		values.addAll(Arrays.asList("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));
-//		String result = dataAnalysis.buildFinalString(values);
+		String result = dataAnalysis.buildFinalString(values);
 		game.run(values);
-		//assertEquals(values, result.contains("Game", "Daniel", "Sjösten", "M", "30", "Stockholm")); ??	
+		assertEquals(result, "#####################-- ANALYSIS OF THE INPUT DATA --#####################\n" +
+"The first name is smaller or equals in size to the last name and the participant is 30 or younger\n" +
+"The name of the homecity is big and the participant is 30 or older");	
+		//assertEquals(values, result.contains("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));	
 	}
 	
 	
