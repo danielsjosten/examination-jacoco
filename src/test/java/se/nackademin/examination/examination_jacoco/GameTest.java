@@ -16,12 +16,33 @@ public class GameTest {
 		ArrayList<String> values = new ArrayList<String>();
 		values.addAll(Arrays.asList("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));
 		String result = dataAnalysis.buildFinalString(values);
-		game.run(values);
+		//game.run(values);
 		assertEquals(result, "#####################-- ANALYSIS OF THE INPUT DATA --#####################\n" +
 "The first name is smaller or equals in size to the last name and the participant is 30 or younger\n" +
 "The name of the homecity is big and the participant is 30 or older");	
 		//assertEquals(values, result.contains("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));	
 	}
+	
+	
+	@Test
+	public void testGetGenderFromInputValues() {
+		Game game = new Game();
+		ArrayList<String> values = new ArrayList<String>();
+		values.addAll(Arrays.asList("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));
+		game.getGenderFromInputValues(values);
+		assertEquals("The result should be 'M'", values.get(3).charAt(0), 'M');
+	}
+	
+	@Test
+	public void testGetAgeFromInputValues() {
+		Game game = new Game();
+		ArrayList<String> values = new ArrayList<String>();
+		values.addAll(Arrays.asList("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));
+		game.getAgeFromInputValues(values);
+		int ageValue = Integer.parseInt(values.get(4));
+		assertEquals("The result should be 30", ageValue, 30);
+	}
+	
 	
 	
 	@Test
