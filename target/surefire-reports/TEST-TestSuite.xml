@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.018" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.02" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\dansj\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3828285546185512886.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\dansj\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1560147809347003882.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\dansj\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,19 +60,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testMainMethod on testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)" classname="se.nackademin.examination.examination_jacoco.MainTest" time="0.009"/>
-  <testcase name="testGetResultStringNamesAndAge on testGetResultStringNamesAndAge(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.003"/>
-  <testcase name="testGetResulStringHomecityAndAge on testGetResulStringHomecityAndAge(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="testMainMethod on testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)" classname="se.nackademin.examination.examination_jacoco.MainTest" time="0.006"/>
+  <testcase name="testGetResultStringNamesAndAge on testGetResultStringNamesAndAge(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.006"/>
+  <testcase name="testGetResulStringHomecityAndAge on testGetResulStringHomecityAndAge(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.001"/>
   <testcase name="testuildFinalString on testuildFinalString(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
-  <testcase name="testConversor on testConversor(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0.001"/>
+  <testcase name="testConversor on testConversor(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0.003"/>
   <testcase name="testGenderGettersAndSettersMethods on testGenderGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
-  <testcase name="testResultForNameLengthGettersAndSettersMethods on testResultForNameLengthGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
+  <testcase name="testResultForNameLengthGettersAndSettersMethods on testResultForNameLengthGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
   <testcase name="testHomecityGettersAndSettersMethods on testHomecityGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
   <testcase name="testAgeGettersAndSettersMethods on testAgeGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
   <testcase name="testRun on testRun(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
-  <testcase name="testCalculateOutPutBasedOnGender on testCalculateOutPutBasedOnGender(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnGender on testCalculateOutPutBasedOnGender(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
   <testcase name="testCalculateOutPutBasedOnHomeCity on testCalculateOutPutBasedOnHomeCity(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
-  <testcase name="testCalculateOutPutBasedOnAge on testCalculateOutPutBasedOnAge(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testCalculateOutPutBasedOnAge on testCalculateOutPutBasedOnAge(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
   <testcase name="testGetGenderFromInputValues on testGetGenderFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
   <testcase name="testGetAgeFromInputValues on testGetAgeFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
   <testcase name="testCalculateOutPutBasedOnNames on testCalculateOutPutBasedOnNames(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
