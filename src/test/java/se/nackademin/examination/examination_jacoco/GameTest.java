@@ -16,7 +16,7 @@ public class GameTest {
 		ArrayList<String> values = new ArrayList<String>();
 		values.addAll(Arrays.asList("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));
 		String result = dataAnalysis.buildFinalString(values);
-		//game.run(values);
+		game.run(values);
 		assertEquals(result, "#####################-- ANALYSIS OF THE INPUT DATA --#####################\n" +
 "The first name is smaller or equals in size to the last name and the participant is 30 or younger\n" +
 "The name of the homecity is big and the participant is 30 or older");	
