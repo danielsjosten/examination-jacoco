@@ -150,6 +150,6 @@ public class GameTest {
 		ResultFromInputs resFromInput = new ResultFromInputs();
 		Conversor conv = new Conversor();
 		
-		game.buildFinalString("Daniel", "Sjösten", resFromInput, conv);		
+		game.buildFinalString("Daniel", "Sjösten", resFromInput, conv);	
 	}
 }
