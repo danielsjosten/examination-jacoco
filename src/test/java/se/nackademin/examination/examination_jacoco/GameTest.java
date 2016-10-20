@@ -15,7 +15,7 @@ public class GameTest {
 	@Test
 	public void testRun(){
 		Game game = new Game();
-		DataAnalysis dataAnalysis = new DataAnalysis();
+		
 		ArrayList<String> values = new ArrayList<String>();
 		values.addAll(Arrays.asList("Game", "Daniel", "Sjösten", "M", "30", "Stockholm"));
 		
@@ -30,6 +30,9 @@ public class GameTest {
 		assertTrue(out.toString().contains("Daniel"));
 		
 		
+		/*Solution 2*/
+		
+//		DataAnalysis dataAnalysis = new DataAnalysis();
 //		String result = dataAnalysis.buildFinalString(values);
 //		System.out.println(result);
 //		game.run(values);
@@ -59,6 +62,12 @@ public class GameTest {
 		assertEquals("The result should be 30", ageValue, 30);
 	}
 	
+	@Test
+	public void testRunGame(){
+		Game game = new Game();
+		game.runGame("Fifa", "Kalle", "Sjösten", 'M', 29, "Stockholm");
+		
+	}
 	
 	
 	@Test
